@@ -601,6 +601,12 @@ footer a:hover {color: #E36F55; -webkit-transition: all .2s ease-in-out; -o-tran
     footer .row {text-align: center; padding: 0; }
     footer span {width: 100%;margin-bottom: 1rem;}
 }
+
+@media screen and (max-width:450px) {
+    footer .row {text-align: center; padding: 0; }
+    footer span {width: 100%;margin-bottom: 1rem;}
+}
+
 @media screen and (max-width:575px) {
     .landing {padding-top: 0rem;}
     .landing .content .title {font-size: 2.0rem !important;line-height:40px !important; margin-bottom:2.5rem;}
